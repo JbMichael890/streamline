@@ -1,0 +1,57 @@
+.headContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 150px;
+  font-family: montserrat;
+}
+
+.headerWrapper {
+  width: 90%;
+  display: flex;
+
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logoNav {
+  display: flex;
+  align-items: center;
+}
+.logo {
+  margin-right: 50px;
+  cursor: pointer;
+}
+
+.navigation {
+  display: flex;
+  @media (max-width: 768px) {
+    display: none;
+  }
+}
+.navs {
+  margin: 0px 15px;
+}
+
+.loginRegister {
+  display: flex;
+
+  align-items: center;
+}
+
+.login {
+  font-size: 15px;
+  font-weight: 600;
+  margin: 0px 15px;
+  cursor: pointer;
+}
+
+.Register {
+  height: 35px;
+  width: 80px;
+  /* font-family: Montserrat; */
+  font-weight: 600;
+  background-color: transparent;
+  border-radius: 8px;
+  cursor: pointer;
+}
